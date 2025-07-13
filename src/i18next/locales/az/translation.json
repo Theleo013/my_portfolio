@@ -1,0 +1,66 @@
+{
+  "hero_section": {
+    "hero-nav": {
+      "about": "Haqqımda",
+      "skills": "Bacarıqlar",
+      "portfolio": "Portfel",
+      "contact": "Mənimlə Əlaqə"
+    },
+    "hero_title": {
+      "span": "Salam, mən",
+      "main": "Elçin Məmmədov",
+      "desc": "Front-End Developer"
+    },
+
+    "frontend_title": "Frontend",
+    "frontend_desc": "Frontend – veb sayt və ya veb tətbiqin istifadəçi ilə birbaşa təmasda olan hissəsidir. İstifadəçilər bir sayta daxil olduqda gördükləri dizayn, düymələr, animasiyalar və ümumi istifadə təcrübəsi məhz frontend tərəfindən idarə olunur. Frontend-in əsas məqsədi məlumatları vizual və interaktiv şəkildə təqdim edərək, istifadəçiyə rahat, intuitiv və cəlbedici təcrübə yaratmaqdır. Müasir dövrdə insanlar sadəcə işləyən deyil, həm də sürətli, mobil uyğun və estetik saytlar gözlədiyindən frontend inkişafı həm texniki, həm də dizayn baxımından mühüm rol oynayır. Bu səbəbdən hər bir rəqəmsal məhsulun uğuru üçün güclü bir frontend strukturuna ehtiyac var."
+  },
+
+  "about_section": {
+    "about_title": "HAQQIMDA",
+    "about_description": "İstifadəçi təcrübəsini ön planda tutan, müasir UI-lər hazırlamağa fokuslanan Frontend Developerəm. React və digər texnologiyalarla dinamik, responsiv və funksional veb interfeyslər qururam. Dizaynı koda çevirmək mənim üçün sadəcə iş yox, həqiqi bir yaradıcılıq prosesidir.",
+    "explore": "Kəşf et",
+    "design": {
+      "title": "DESIGN",
+      "description": "İstifadəçi dostu UI-lərin hazırlanmasına fokuslanıram — Figma və digər dizayn vasitələrindən istifadə edərək istifadəsi rahat interfeysləri kodlayıram."
+    },
+    "development": {
+      "title": "DEVELOPMENT",
+      "description": "Müasir React və digər qabaqcıl texnologiyalarla performanslı və çevik web saytlar qururam."
+    },
+    "maintenance": {
+      "title": "MAINTENANCE",
+      "description": "Layihələrinizin daim işlək qalması üçün davamlı dəstək və yeniliklər təmin edirəm."
+    }
+  },
+
+  "skills_section": {
+    "title": "BACARIQLAR",
+    "info": "İstifadə edirəm"
+  },
+
+  "portfolio_section": {
+    "title": "PORTFEL",
+    "projects": "Layihələr",
+    "code": "Kodlar",
+    "desc": "Və daha çoxu..."
+  },
+  "contact_section": {
+    "title": "ƏLAQƏ",
+    "description": "Sual və əməkdaşlıq üçün mənimlə rahatlıqla əlaqə saxlaya və ya aşağıdakı form vasitəsilə yazabilirsiniz"
+  },
+
+  "form": {
+    "success_message": "Mesajınız göndərildi!",
+    "sending": "Göndərilir...",
+    "name_placeholder": "Adınızı daxil edin",
+    "email_placeholder": "Emailinizi daxil edin",
+    "phone_placeholder": "Telefon nömrəsi",
+    "message_placeholder": "Mesajınız",
+    "submit_button": "GÖNDƏR"
+  },
+
+  "scroll_top": "YUXARI QAYIT",
+
+  "copyright": "© 2025 Elçin Məmmədov Bütün Hüquqlar Qorunur"
+}

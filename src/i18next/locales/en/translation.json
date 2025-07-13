@@ -1,0 +1,67 @@
+{
+  "hero_section": {
+    "hero-nav": {
+      "about": "About me",
+      "skills": "Skills",
+      "portfolio": "Portfolio",
+      "contact": "Contact Me"
+    },
+    "hero_title": {
+      "span": "Hi, I am",
+      "main": "Elchin Mamedov",
+      "desc": "Front-End Developer"
+    },
+
+    "frontend_title": "Frontend",
+    "frontend_desc": "Frontend is the part of a website or web application that interacts directly with the user. When users visit a site, everything they see — the design, buttons, animations, and the overall experience — is managed by frontend technologies. The main purpose of frontend is to present data visually and interactively, creating a smooth, intuitive, and engaging experience. In today’s world, users expect not just functionality, but also speed, mobile responsiveness, and aesthetics. That’s why frontend development plays a crucial role both technically and in terms of design. A strong frontend foundation is essential for the success of any digital product."
+  },
+
+  "about_section": {
+    "about_me": "ABOUT ME",
+    "about_description": "I'm a Frontend Developer focused on crafting modern UIs with a strong emphasis on user experience. I build dynamic, responsive, and functional web interfaces using React and other technologies. For me, turning design into code is not just a job — it's a true creative process.",
+    "explore": "Explore",
+    "design": {
+      "title": "DESIGN",
+      "description": "I focus on crafting user-friendly UIs — coding intuitive interfaces using Figma and other design tools."
+    },
+    "development": {
+      "title": "DEVELOPMENT",
+      "description": "I build performant and flexible websites using modern React and other advanced technologies."
+    },
+    "maintenance": {
+      "title": "MAINTENANCE",
+      "description": "I provide ongoing support and updates to ensure your projects remain stable and efficient."
+    }
+  },
+
+  "skills_section": {
+    "title": "SKILLS",
+    "info": "Using now"
+  },
+
+  "portfolio_section": {
+    "title": "PORTFOLIO",
+    "projects": "Projects",
+    "code": "Codes",
+    "desc": "And many more..."
+  },
+
+  "contact_section": {
+    "title": "CONTACT",
+    "description": "Feel free to reach out for questions or collaboration, or write via the form below"
+  },
+
+  "form": {
+    "success_message": "Your message has been sent!",
+    "sending": "Sending...",
+    "name_placeholder": "Enter your Name",
+    "email_placeholder": "Enter your Email",
+    "phone_placeholder": "Phone Number",
+    "message_placeholder": "Your Message",
+    "submit_button": "SUBMIT"
+  },
+
+  "scroll_top": "Back To Top",
+
+  "copyright": "© 2025 Elchin Mamedov All Rights Reserved"
+}

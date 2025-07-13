@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+* {
+  @font-face {
+    font-family: "Raleway-Bold";
+    src: url("/src/assets/fonts/Raleway-Bold.ttf") format("ttf");
+  }
+  @font-face {
+    font-family: "Raleway-ExtraBold";
+    src: url("/src/assets/fonts/Raleway-ExtraBold.ttf") format("ttf");
+  }
+  @font-face {
+    font-family: "Montserrat-Bold";
+    src: url("/src/assets/fonts/Montserrat-Bold.ttf") format("ttf");
+  }
+  @font-face {
+    font-family: "Montserrat-Regular";
+    src: url("/src/assets/fonts/Montserrat-Regular.ttf") format("ttf");
+  }
+  @font-face {
+    font-family: "Montserrat-SemiBold";
+    src: url("/src/assets/fonts/Montserrat-SemiBold.ttf") format("ttf");
+  }
+  @font-face {
+    font-family: "OpenSans-Regular";
+    src: url("/src/assets/fonts/OpenSans-Regular.ttf") format("ttf");
+  }
+
+  margin: 0;
+  box-sizing: border-box;
+
+  /* body {
+    background-color: #d7d7d7;
+  } */
+  ul {
+    li {
+      list-style: none;
+    }
+  }
+}
