@@ -48,7 +48,7 @@ const About: React.FC = () => {
         <SectionTitle
           customStyle={{ border: "4px solid #000000" }}
           titleColor="text-[#000000]"
-          title={t("about_section.about_me")}
+          title={t("about_section.about_title")}
         />
         <div className="font-[OpenSans-Regular] text-center">
           <p>{t("about_section.about_description")}</p>

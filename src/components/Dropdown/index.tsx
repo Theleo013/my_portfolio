@@ -21,7 +21,7 @@ const Dropdown: React.FC = () => {
   };
 
   return (
-    <div className=" flex items-center w-[2.5rem] lg:w-[3rem] h-auto">
+    <div className=" flex items-center w-[4rem] h-auto">
       <select
         id="language-dropdown"
         className=" bg-transparent text-white text-3xl w-full lg:text-lg h-auto outline-none cursor-pointer hover:border-b-amber-400 "

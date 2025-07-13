@@ -41,7 +41,7 @@ const Portfolio: React.FC = () => {
   return (
     <Element name="portfolio">
       <>
-        <div className="bg-[#000000] flex flex-col justify-start items-center w-full h-[70rem] lg:h-[40rem] lg:px-[100px]">
+        <div className="bg-[#000000] flex flex-col justify-start items-center w-full h-auto lg:h-[40rem] lg:px-[100px]">
           <div className="flex flex-col items-start relative">
             <SectionTitle
               customStyle={{
