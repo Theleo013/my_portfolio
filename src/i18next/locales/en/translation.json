@@ -22,15 +22,15 @@
     "explore": "Explore",
     "design": {
       "title": "DESIGN",
-      "description": "I focus on crafting user-friendly UIs — coding intuitive interfaces using Figma and other design tools."
+      "description": "I'm designing and coding user-friendly interfaces using Figma and other design tools"
     },
     "development": {
       "title": "DEVELOPMENT",
-      "description": "I build performant and flexible websites using modern React and other advanced technologies."
+      "description": "I build performant and flexible websites using modern React and other advanced technologies"
     },
     "maintenance": {
       "title": "MAINTENANCE",
-      "description": "I provide ongoing support and updates to ensure your projects remain stable and efficient."
+      "description": "I provide ongoing support and updates to ensure your projects remain stable and efficient"
     }
   },
 

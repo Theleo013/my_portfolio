@@ -59,8 +59,8 @@ const About: React.FC = () => {
         <div className="py-10">
           <img src="/assets/icons/separatorBlack.svg" alt="separatorBlack" />
         </div>
-        <div className="flex flex-col items-center gap-15">
-          <div className="flex flex-col lg:flex-row justify-between items-end gap-10 lg:gap-40">
+        <div className="flex flex-col items-center text-center gap-15">
+          <div className="flex flex-col lg:flex-row justify-between items-end gap-15 lg:gap-40">
             <ServiceCard
               customStyle="absolute top-auto right-10"
               icon={CardContent.design.icon}
@@ -68,7 +68,7 @@ const About: React.FC = () => {
               par={CardContent.design.par}
             />
             <ServiceCard
-              customStyle="absolute top-auto right-27"
+              customStyle="absolute top-auto right-21"
               icon={CardContent.development.icon}
               title={CardContent.development.title}
               par={CardContent.development.par}
@@ -76,15 +76,15 @@ const About: React.FC = () => {
           </div>
           <div>
             <ServiceCard
-              customStyle="absolute top-auto right-27"
+              customStyle="absolute top-auto right-23"
               icon={CardContent.maintenance.icon}
               title={CardContent.maintenance.title}
               par={CardContent.maintenance.par}
             />
           </div>
-          <div className="py-10">
-            <img src="/assets/icons/separatorBlack.svg" alt="separatorBlack" />
-          </div>
+        </div>
+        <div className="py-10">
+          <img src="/assets/icons/separatorBlack.svg" alt="separatorBlack" />
         </div>
       </div>
     </Element>

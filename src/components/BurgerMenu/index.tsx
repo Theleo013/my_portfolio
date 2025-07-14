@@ -56,7 +56,7 @@ const Menu: React.FC<{ open: boolean }> = ({ open }) => {
       }`}
       role="menu"
     >
-      <ul className="flex flex-col gap-5">
+      <ul className="flex flex-col items-center gap-5">
         {navLinks?.map((link) => (
           <li
             className="w-screen flex flex-col items-center justify-center "
@@ -68,13 +68,19 @@ const Menu: React.FC<{ open: boolean }> = ({ open }) => {
               offset={-80}
               duration={500}
               spy={true}
-              activeClass="bg-white text-black"
-              className=" text-amber-50 cursor-pointerhover:underline"
+              activeClass="!bg-white !text-black"
+              className=" text-amber-50 cursor-pointer hover:underline"
             >
               {link.label}
             </Link>
           </li>
         ))}
+        <div
+          onClick={() => window.open("https://wa.me/994516422532", "_blank")}
+          className="flex justify-center items-center text-[0.8rem] text-black bg-amber-50 w-28 h-6 rounded-md cursor-pointer"
+        >
+          {t("hero_section.hero-nav.contact")}
+        </div>
       </ul>
     </nav>
   );

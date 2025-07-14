@@ -15,7 +15,7 @@ const Home: React.FC = () => {
       <Header />
       <HeroSection />
       <FrontendSection />
-      <div className="bg-[radial-gradient(ellipse_50%_80%,_rgba(255,255,255,0.4)_0%,_#d7d7d7_100%)] p-3 lg:px-16 lg:py-20">
+      <div className="bg-[radial-gradient(ellipse_50%_80%,_rgba(255,255,255,0.4)_0%,_#d7d7d7_100%)] p-5 lg:px-16 lg:py-20">
         <AboutSection />
         <SkillSection />
       </div>

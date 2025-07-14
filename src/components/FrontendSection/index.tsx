@@ -4,7 +4,7 @@ import { useTranslation } from "react-i18next";
 const FrontendSection: React.FC = () => {
   const { t } = useTranslation();
   return (
-    <div className="flex flex-col justify-around lg:flex-row lg:justify-between items-center py-5 px-2 lg:px-16 bg-[#1d1d1d] w-full h-auto  ">
+    <div className="flex flex-col justify-around lg:flex-row lg:justify-between items-center py-10 px-5 lg:px-16 bg-[#1d1d1d] w-full h-auto  ">
       <div className="flex flex-col items-center lg:items-start text-white gap-5 order-2 lg:order-1 ">
         <h1 className="font-[Montserrat-Bold] text-3xl">
           {t("hero_section.frontend_title")}

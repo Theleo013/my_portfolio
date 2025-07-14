@@ -15,7 +15,7 @@ const ServiceCard: React.FC<serviceCardProps> = ({
 }) => {
   return (
     <div className="flex flex-col items-start gap-5">
-      <div className="relative flex items-center">
+      <div className="relative flex items-center pl-3">
         <img className={customStyle} src={icon} alt="card-icon" />
         <h1 className="font-[Montserrat-Bold] ">{title}</h1>
       </div>

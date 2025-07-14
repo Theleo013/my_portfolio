@@ -47,7 +47,7 @@ const ContactForm: React.FC = () => {
       <form
         ref={formRef}
         onSubmit={sendEmail}
-        className="flex flex-col items-center w-[350px] lg:w-[400px] gap-8"
+        className="flex flex-col items-center w-[310px] lg:w-[400px] gap-8"
       >
         <input
           type="text"
