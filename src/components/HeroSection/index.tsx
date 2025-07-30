@@ -6,7 +6,7 @@ const HeroSection: React.FC = () => {
   return (
     <section className="flex flex-col relative w-[100%] h-[700px] overflow-hidden lg:flex">
       <div className="bg-[#5d6268] lg:bg-[#d7d7d7] opacity-80 [clip-path:polygon(0%_25%,_100%_0%,_100%_100%,_0%_100%)] lg:[clip-path:polygon(0%_0%,_100%_0%,_70%_100%,_0%_100%)] w-[100%] h-[35%] order-2 lg:w-[100%] lg:h-[100%] absolute bottom-0 lg:top-0 left-0 z-10  ">
-        <div className="flex flex-col items-start justify-center gap-2.5 lg:gap-5 absolute top-16 lg:top-48 lg:left-20 left-5">
+        <div className="flex flex-col items-start justify-center gap-2.5 lg:gap-5 absolute top-25 lg:top-48 lg:left-20 left-5">
           <span className="font-[Raleway-Bold] text-3xl lg:text-4xl text-[#fff] lg:text-black">
             {t("hero_section.hero_title.span")}
           </span>
