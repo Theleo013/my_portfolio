@@ -84,7 +84,7 @@ lg:[clip-path:polygon(50%_0%,_100%_0%,_100%_100%,_40%_100%)] w-[100%] h-[100%] o
         <img
 
           className="w-[623px] h-[710px] overflow-hidden absolute top-0 left-[30%] 
-          lg:bottom-0 lg:left-[55%] lg:w-[465px] lg:h-[620px] object-contain lg:object-cover"
+          lg:top-20 lg:left-[55%] lg:w-[465px] lg:h-[620px] object-contain lg:object-cover"
           src="/assets/images/image_hero.png"
           alt="hero-image"
         />
