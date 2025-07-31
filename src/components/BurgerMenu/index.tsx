@@ -1,6 +1,10 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
 import { Link } from "react-scroll";
+<<<<<<< HEAD
+=======
+import Dropdown from "../Dropdown";
+>>>>>>> c8553c8 (fix all problems)
 
 interface NavLinkItem {
   id: string;
@@ -49,7 +53,11 @@ const Menu: React.FC<{ open: boolean }> = ({ open }) => {
 
   return (
     <nav
+<<<<<<< HEAD
       className={`flex flex-col justify-center items-center absolute inset-x-0 top-18 w-screen h-[12rem] bg-[rgba(29,26,25,0.95)] rounded-md shadow-lg overflow-hidden transform transition-all duration-300 origin-top ${
+=======
+      className={`flex justify-center items-center absolute inset-x-0 top-18 w-screen h-[18rem] bg-[rgba(29,26,25,0.95)] rounded-md shadow-lg overflow-hidden transform transition-all duration-300 origin-top ${
+>>>>>>> c8553c8 (fix all problems)
         open
           ? "opacity-100 scale-100 pointer-events-auto"
           : "opacity-0 scale-95 pointer-events-none"
@@ -82,6 +90,10 @@ const Menu: React.FC<{ open: boolean }> = ({ open }) => {
           {t("hero_section.hero-nav.contact")}
         </div>
       </ul>
+<<<<<<< HEAD
+=======
+       <div className="absolute top-3 right-5"><Dropdown/></div>
+>>>>>>> c8553c8 (fix all problems)
     </nav>
   );
 };
@@ -110,7 +122,11 @@ const BurgerMenu: React.FC = () => {
 
   return (
     <div className="flex lg:hidden  min-h-auto items-center justify-center text-gray-50 font-sans">
+<<<<<<< HEAD
       <div ref={node} className=" w-full px-8">
+=======
+      <div ref={node} className=" w-full px-4">
+>>>>>>> c8553c8 (fix all problems)
         <Burger open={open} setOpen={setOpen} />
         <Menu open={open} />
       </div>

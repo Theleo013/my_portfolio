@@ -19,7 +19,11 @@ const Header: React.FC = () => {
   ];
 
   return (
+<<<<<<< HEAD
     <nav className="flex justify-between items-center w-[100%] absolute top-0 left-0 py-3 px-10 lg:px-14 z-50">
+=======
+    <nav className="flex justify-between items-center w-[100%] absolute top-0 left-0 py-3 px-6 lg:px-14 z-50">
+>>>>>>> c8553c8 (fix all problems)
       <div>
         <a href="/">
           <img
@@ -60,7 +64,11 @@ const Header: React.FC = () => {
         </div>
         <div className="flex items-center">
           <BurgerMenu />
+<<<<<<< HEAD
           <Dropdown />
+=======
+          <div className="hidden lg:block"><Dropdown /></div> 
+>>>>>>> c8553c8 (fix all problems)
         </div>
       </ul>
     </nav>
