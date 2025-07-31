@@ -42,7 +42,7 @@ const Portfolio: React.FC = () => {
     <Element name="portfolio">
       <>
         <div className="bg-[#000000] flex relative flex-col justify-end items-center w-full h-[82rem] lg:h-[50rem] lg:px-[100px]">
-          <div className="relative w-[320px]">
+          <div className="relative w-[320px] lg:w-[500px]">
   <img
     className="w-full h-auto"
     src="/assets/images/wordcloud.png"

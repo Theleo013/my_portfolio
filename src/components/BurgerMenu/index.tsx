@@ -86,7 +86,7 @@ const Menu: React.FC<{ open: boolean }> = ({ open }) => {
           {t("hero_section.hero-nav.contact")}
         </div>
       </ul>
-       <div className="absolute top-3 right-5"><Dropdown/></div>
+       <div className="absolute top-3 right-7"><Dropdown/></div>
 
     </nav>
   );
