@@ -82,11 +82,9 @@ const HeroSection: React.FC = () => {
 lg:[clip-path:polygon(50%_0%,_100%_0%,_100%_100%,_40%_100%)] w-[100%] h-[100%] order-1 lg:w-[100%] lg:h-[100%] absolute top-0 left-0 z-0 lg:z-10 "
       >
         <img
-<<<<<<< HEAD
-          className="w-[623px] h-[710px] overflow-hidden absolute top-20 left-[30%] lg:bottom-0 lg:left-[55%] lg:w-[465px] lg:h-[620px] object-cover"
-=======
-          className="w-[623px] h-[710px] overflow-hidden absolute top-0 left-[30%] lg:bottom-0 lg:left-[55%] lg:w-[465px] lg:h-[620px] object-contain lg:object-cover"
->>>>>>> c8553c8 (fix all problems)
+
+          className="w-[623px] h-[710px] overflow-hidden absolute top-0 left-[30%] 
+          lg:bottom-0 lg:left-[55%] lg:w-[465px] lg:h-[620px] object-contain lg:object-cover"
           src="/assets/images/image_hero.png"
           alt="hero-image"
         />

@@ -41,29 +41,6 @@ const Portfolio: React.FC = () => {
   return (
     <Element name="portfolio">
       <>
-<<<<<<< HEAD
-        <div className="bg-[#000000] flex flex-col justify-start items-center w-full h-auto lg:h-[40rem] lg:px-[100px]">
-          <div className="flex flex-col items-start relative">
-            <SectionTitle
-              customStyle={{
-                border: "4px solid #ffffff",
-                zIndex: 20,
-                position: "absolute",
-                top: "75px",
-                left: "100px",
-              }}
-              titleColor="text-[#ffffff] z-20"
-              title={t("portfolio_section.title")}
-            />
-            <img
-              className="w-[450px] h-auto"
-              src="/assets/images/wordcloud.png"
-              alt="wordcloud"
-            />
-          </div>
-
-          <div className="flex flex-col items-center p-3 gap-8 w-full">
-=======
         <div className="bg-[#000000] flex relative flex-col justify-end items-center w-full h-[82rem] lg:h-[50rem] lg:px-[100px]">
           <div className="relative w-[320px]">
   <img
@@ -81,7 +58,7 @@ const Portfolio: React.FC = () => {
 </div>
 
           <div className="flex flex-col items-center p-8 gap-8 w-full">
->>>>>>> c8553c8 (fix all problems)
+
             <ul className="flex items-center text-[#7c7c7c] font-[Montserrat-SemiBold]">
               <li
                 data-type="left"
